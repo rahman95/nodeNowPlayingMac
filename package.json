@@ -1,0 +1,22 @@
+{
+  "name": "now-playing-mac",
+  "version": "1.0.0",
+  "description": "Shows now playing info using Node and AppleScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahman95/nodeNowPlayingMac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahman95/nodeNowPlayingMac/issues"
+  },
+  "homepage": "https://github.com/rahman95/nodeNowPlayingMac#readme",
+  "dependencies": {
+    "osap": "^1.0.2"
+  }
+}
