@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rahman95/nodeNowPlayingMac#readme",
   "dependencies": {
+    "node-osascript": "^2.0.0",
     "osap": "^1.0.2"
   }
 }
