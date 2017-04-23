@@ -1,8 +1,13 @@
 var osascript = require('node-osascript');
+var spotify = require('./spotify.js');
 
-var script = 'tell application "Spotify" to (get artist of current track) & " - " & (get name of current track)';
 
-osascript.execute(script, function(err, result, raw){
-  if (err) return console.error(err)
-  console.log(result)
-});
+exec_osap(spotify.getSong.value);
+
+
+function exec_osap(script){
+  osascript.execute(script, function(err, result, raw){
+    if (err) return console.error(err)
+    console.log(result)
+  });
+}

@@ -4,7 +4,7 @@
   "description": "Shows now playing info using Node and AppleScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,14 @@
   },
   "homepage": "https://github.com/rahman95/nodeNowPlayingMac#readme",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "enumify": "^1.0.4",
     "node-osascript": "^2.0.0",
+    "nodemon": "^1.11.0",
     "osap": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
   }
 }
